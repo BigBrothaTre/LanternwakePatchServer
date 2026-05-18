@@ -1,0 +1,23 @@
+{
+  "gameVersion": "0.1.0",
+  "requiredClient": "3.3.5a",
+  "realmlist": "set realmlist 68.0.180.123",
+  "files": [
+    {
+      "name": "Lanternwake UI",
+      "url": "https://your-domain.example/lanternwake/patches/LanternwakeUI.zip",
+      "destination": "Interface/AddOns/",
+      "type": "zip",
+      "sha256": "PUT_SHA256_HASH_HERE",
+      "version": "0.1.0"
+    },
+    {
+      "name": "Lanternwake Client Patch",
+      "url": "https://your-domain.example/lanternwake/patches/patch-Lanternwake.MPQ",
+      "destination": "Data/",
+      "type": "file",
+      "sha256": "PUT_SHA256_HASH_HERE",
+      "version": "0.1.0"
+    }
+  ]
+}
