@@ -1,0 +1,25 @@
+{
+  "PatchRepoRoot": "C:\\Users\\YOUR_WINDOWS_NAME\\Documents\\GitHub\\LanternwakePatchServer",
+  "PatchesFolder": "patches",
+  "ManifestFile": "manifest.json",
+  "BaseRawUrl": "https://raw.githubusercontent.com/BigBrothaTre/LanternwakePatchServer/main",
+  "GameVersion": "0.1.0",
+  "RequiredClient": "3.3.5a",
+  "Realmlist": "set realmlist YOUR_FRIEND_REALMLIST",
+  "Packages": [
+    {
+      "Name": "Lanternwake UI",
+      "SourceFolder": "C:\\Path\\To\\Your\\WoW\\Interface\\AddOns\\DiabolicUI",
+      "ZipName": "DiabolicUI.zip",
+      "Destination": "Interface/AddOns/",
+      "Version": "0.1.1"
+    },
+    {
+      "Name": "Lanternwake Example Addon",
+      "SourceFolder": "C:\\Path\\To\\Your\\WoW\\Interface\\AddOns\\ExampleAddon",
+      "ZipName": "ExampleAddon.zip",
+      "Destination": "Interface/AddOns/",
+      "Version": "0.1.0"
+    }
+  ]
+}
