@@ -8,7 +8,7 @@
                       "url":  "https://raw.githubusercontent.com/BigBrothaTre/LanternwakePatchServer/main/patches/DiabolicUI.zip",
                       "destination":  "Interface/AddOns/",
                       "type":  "zip",
-                      "sha256":  "0e5c61fd5024afaffe4c7d27d346d89f48b3d8110ffe69a908e6613d1935a355",
+                      "sha256":  "9ac13b3e47d6757765971302057a0d1cdcdc6a853822d17858d89d7032319e5f",
                       "version":  "0.1.1"
                   }
               ]
