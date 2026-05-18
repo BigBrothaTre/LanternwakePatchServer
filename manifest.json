@@ -1,15 +1,15 @@
-{
-  "gameVersion": "0.1.0",
-  "requiredClient": "3.3.5a",
-  "realmlist": "set realmlist 68.0.180.123",
-  "files": [
-    {
-      "name": "Lanternwake UI",
-      "url": "https://github.com/BigBrothaTre/LanternwakePatchServer/raw/refs/heads/main/patches/DiabolicUI.zip",
-      "destination": "Interface/AddOns/",
-      "type": "zip",
-      "sha256": "b879a3fa789bbf80de59f7346f1c49924817e112d2da2c99a4416593012cde17",
-      "version": "0.1.0"
-    }
-  ]
+﻿{
+    "gameVersion":  "0.1.0",
+    "requiredClient":  "3.3.5a",
+    "realmlist":  "set realmlist 68.0.180.123",
+    "files":  [
+                  {
+                      "name":  "Lanternwake UI",
+                      "url":  "https://raw.githubusercontent.com/BigBrothaTre/LanternwakePatchServer/main/patches/DiabolicUI.zip",
+                      "destination":  "Interface/AddOns/",
+                      "type":  "zip",
+                      "sha256":  "8cf0d19c020d82c4193f46f2228d7f3e6368e160869841e7121bef93d1eb4ad3",
+                      "version":  "0.1.1"
+                  }
+              ]
 }
