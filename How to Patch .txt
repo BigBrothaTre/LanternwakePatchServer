@@ -1,0 +1,29 @@
+Current launcher patch pipeline:
+
+Stage approved addon:
+C:\Unity Projects\LanternwakePatchBuild\AddOns\DiabolicUI
+
+Run packager:
+package-lanternwake-patches.ps1
+powershell -ExecutionPolicy Bypass -File .\package-lanternwake-patches.ps1
+
+Outputs:
+C:\Unity Projects\LanternwakePatchServer\patches\DiabolicUI.zip
+C:\Unity Projects\LanternwakePatchServer\manifest.json
+
+Commit/push:
+LanternwakePatchServer
+
+Tester flow:
+Launcher → Check → Patch → Play
+
+Verified:
+
+Packaging script passed
+Packaged manifest check passed
+Launcher patch passed
+In-game UI verification passed
+/ui works
+/ui castbar unlock works
+/ui castbar lock works
+No reported Lua errors
