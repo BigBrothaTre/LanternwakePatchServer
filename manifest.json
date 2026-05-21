@@ -10,6 +10,14 @@
                       "type":  "zip",
                       "sha256":  "9ac13b3e47d6757765971302057a0d1cdcdc6a853822d17858d89d7032319e5f",
                       "version":  "0.1.1"
+                  },
+                  {
+                      "name":  "Lanternwake UI",
+                      "url":  "https://raw.githubusercontent.com/BigBrothaTre/LanternwakePatchServer/main/patches/LanternwakePicker.zip",
+                      "destination":  "Interface/AddOns/",
+                      "type":  "zip",
+                      "sha256":  "915313590e2051593b96c10c479a5d224dcdde16bc71fe5279a991905ed55e46",
+                      "version":  "0.3"
                   }
               ]
 }
